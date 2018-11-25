@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "babel --watch tjb-menu.js --out-dir docs",
-    "build": "babel --"
+    "build": "npm run build-max | npm run build-min",
+    "build-max": "babel tjb-menu.js --out-file docs/tjb-menu.js",
+    "build-min": "babel --minified tjb-menu.js --out-file docs/tjb-menu.min.js"
   },
   "repository": {
     "type": "git",

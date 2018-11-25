@@ -21,7 +21,7 @@ Include the module:
 ```html
 <script
   type="module"
-  src="https://tjb-webcomponents.github.io/tjb-menu/tjb-menu.js"
+  src="https://tjb-webcomponents.github.io/tjb-menu/tjb-menu.min.js"
 ></script>
 ```
 
