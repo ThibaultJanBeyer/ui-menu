@@ -4,6 +4,10 @@ Webcomponents Main Menu.
 Creating accessible and feature rich menus is a tedious task. So here is a re-useable webcomponent menu to make your development fun again.  
 It is accessible and mobile friendly by default and features sub-menus.
 
+## Example
+
+https://tjb-webcomponents.github.io/tjb-menu/
+
 ## Useage
 
 You might want to use a Polyfill for WebComponent:
@@ -135,11 +139,3 @@ Full example:
   color: var(--primary);
 }
 ```
-
-## Example
-
-https://tjb-webcomponents.github.io/tjb-menu/
-
-## Version
-
-0.0.1
