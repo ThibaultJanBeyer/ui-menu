@@ -8,7 +8,7 @@ It is accessible and mobile friendly by default and features sub-menus.
 
 https://tjb-webcomponents.github.io/tjb-menu/
 
-## Useage
+## Add to project
 
 You might want to use a Polyfill for WebComponent:
 
@@ -16,16 +16,38 @@ You might want to use a Polyfill for WebComponent:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-lite.js"></script>
 ```
 
-Include the module:
+### Include via HTML
+
+Include it:
 
 ```html
 <script
-  type="module"
   src="https://tjb-webcomponents.github.io/tjb-menu/tjb-menu.min.js"
+  type="module"
 ></script>
 ```
 
-- Use it:
+### Include via JavaScript
+
+```JavaScript
+import 'https://tjb-webcomponents.github.io/tjb-menu/tjb-menu.min.js'
+```
+
+### Include via NPM
+
+Console:
+
+```bash
+npm i -S tjb-menu
+```
+
+Then in your code:
+
+```JavaScript
+import 'tjb-menu';
+```
+
+## Useage
 
 Simplified:
 
