@@ -1,0 +1,35 @@
+{
+  "name": "tjb-menu",
+  "version": "0.0.1",
+  "description": "awesome menu webcomponent",
+  "main": "tjb-menu.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "babel --watch tjb-menu.js --out-dir docs",
+    "build": "babel --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultJanBeyer/ui-menu.git"
+  },
+  "keywords": [
+    "webcomponent",
+    "custom",
+    "element",
+    "htmlelement",
+    "html",
+    "menu",
+    "menubar"
+  ],
+  "author": "Thibault Jan Beyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThibaultJanBeyer/ui-menu/issues"
+  },
+  "homepage": "https://github.com/ThibaultJanBeyer/ui-menu#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}

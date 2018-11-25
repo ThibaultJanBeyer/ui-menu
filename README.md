@@ -6,13 +6,45 @@ It is accessible and mobile friendly by default and features sub-menus.
 
 ## Useage
 
+You might want to use a Polyfill for WebComponent:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-lite.js"></script>
+```
+
 Include the module:
 
 ```html
 <script type="module" src="tjb-menu.js"></script>
 ```
 
-Use it:
+- Use it:
+
+Simplified:
+
+```html
+<tjb-menu data-title="Main Menu">
+  <span slot="logo">[YOUR LOGO]</span>
+
+  <tjb-menu-item slot="menu-item">
+    <a slot="menu-item-link">[YOUR LINK]</a>
+  </tjb-menu-item>
+
+  <tjb-menu-item-sub slot="menu-item">
+    <div slot="menu-item-sub-toggle">[YOUR SUB-MENU TRIGGER]</div>
+
+    <tjb-menu-item slot="menu-item">
+      <a slot="menu-item-link">[YOUR SUB-MENU LINK]</a>
+    </tjb-menu-item>
+  </tjb-menu-item-sub>
+</tjb-menu>
+```
+
+- `tjb-menu` the parent
+- `tjb-menu-item-sub` a submenu
+- `tjb-menu-item` an item in the menu
+
+Full example:
 
 ```html
 <tjb-menu data-title="Main Menu">
@@ -50,10 +82,6 @@ Use it:
   </tjb-menu-item>
 </tjb-menu>
 ```
-
-- `tjb-menu` the parent
-- `tjb-menu-item-sub` a submenu
-- `tjb-menu-item` an item in the menu
 
 ## Example
 
