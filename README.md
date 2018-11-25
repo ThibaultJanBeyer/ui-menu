@@ -1,4 +1,4 @@
-# ui-menu
+# tjb-menu
 
 Webcomponents Main Menu.  
 Creating accessible and feature rich menus is a tedious task. So here is a re-useable webcomponent menu to make your development fun again.  
@@ -17,7 +17,7 @@ Include the module:
 ```html
 <script
   type="module"
-  src="https://thibaultjanbeyer.github.io/ui-menu/tjb-menu.js"
+  src="https://tjb-webcomponents.github.io/tjb-menu/tjb-menu.js"
 ></script>
 ```
 
@@ -138,7 +138,7 @@ Full example:
 
 ## Example
 
-https://thibaultjanbeyer.github.io/ui-menu/
+https://tjb-webcomponents.github.io/tjb-menu/
 
 ## Version
 
