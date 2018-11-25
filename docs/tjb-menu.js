@@ -1,4 +1,4 @@
-import WebComponent from 'https://tjb-webcomponents.github.io/tjb-WebComponent/tjb-wc.min.js';
+import WebComponent from 'https://tjb-webcomponents.github.io/tjb-webcomponent/tjb-wc.min.js';
 import html from 'https://thibaultjanbeyer.github.io/html-template-string/html.min.js';
 
 class tjbMenu extends WebComponent {
