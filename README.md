@@ -162,4 +162,6 @@ Full example:
 }
 ```
 
-.
+# Enjoy
+
+[![Typewriter Gif](https://tjb-webcomponents.github.io/html-template-string/typewriter.gif)](http://thibaultjanbeyer.com/)
