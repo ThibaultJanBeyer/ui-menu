@@ -1,7 +1,7 @@
 import WebComponent from 'https://tjb-webcomponents.github.io/tjb-webcomponent/tjb-wc.min.js'
 import html from 'https://tjb-webcomponents.github.io/html-template-string/html.min.js';
 
-class tjbMenu extends WebComponent {
+class tjbMenu extends WebComponent() {
   CSS() {
     return html `<style>
       :host {
